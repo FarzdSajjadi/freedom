@@ -1,5 +1,5 @@
 .app {
-    width: fit-content;
+    width: 30%;
     border-radius: 15px;
     background-color: rgb(1, 22, 39);
     float: left;
@@ -8,6 +8,7 @@
     margin-bottom: 1%;
     transition: all 1s;
     text-align: center;
+    font-size: 35px;
 }
 
 .app:hover {
@@ -15,8 +16,8 @@
 }
 
 .app img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: auto;
 }
 
 .app .download {

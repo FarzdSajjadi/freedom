@@ -1,0 +1,7 @@
+
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-appstore:before { content: '\e801'; } /* '' */
+.icon-windows:before { content: '\e802'; } /* '' */
+.icon-gmail:before { content: '\e803'; } /* '' */
+.icon-article-alt:before { content: '\e804'; } /* '' */
+.icon-android:before { content: '\e808'; } /* '' */

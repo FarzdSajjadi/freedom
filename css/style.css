@@ -1,0 +1,17 @@
+.table {
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.table td {
+    text-align: center;
+    border: 1px dotted red;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main {
+    background-color: rgb(1, 22, 39);
+}

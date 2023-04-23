@@ -1,17 +1,19 @@
 .table {
     width: 100%;
-    border: 2px solid blue;
 }
 
 .table .icon {
     text-align: center;
     font-size: 25px;
     color: rgb(137, 168, 193);
-    border: 1px dotted red;
+    border-radius: 100px;
+    background-color: rgba(1, 22, 39);
 }
 
 .logo {
     text-align: center;
+    border-radius: 100px;
+    background-color: rgba(1, 22, 39);
 }
 
 .logo img {
@@ -19,5 +21,5 @@
 }
 
 .main {
-    background-color: rgb(1, 22, 39);
+    background-color: rgba(1, 22, 39, 0.9);
 }

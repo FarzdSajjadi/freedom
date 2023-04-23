@@ -3,9 +3,15 @@
     border: 2px solid blue;
 }
 
-.table td {
+.table .icon {
     text-align: center;
+    font-size: 25px;
+    color: rgb(137, 168, 193);
     border: 1px dotted red;
+}
+
+.logo {
+    text-align: center;
 }
 
 .logo img {

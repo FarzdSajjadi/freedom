@@ -23,3 +23,8 @@
 .main {
     background-color: rgba(1, 22, 39, 0.9);
 }
+
+iframe {
+    width: 100%;
+    height: auto;
+}

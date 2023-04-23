@@ -11,6 +11,7 @@
 
 .table .icon a {
     color: rgb(137, 168, 193);
+    text-decoration: none;
 }
 
 .logo {

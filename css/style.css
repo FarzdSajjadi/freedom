@@ -5,9 +5,12 @@
 .table .icon {
     text-align: center;
     font-size: 25px;
-    color: rgb(137, 168, 193);
     border-radius: 100px;
     background-color: rgba(1, 22, 39);
+}
+
+.table .icon a {
+    color: rgb(137, 168, 193);
 }
 
 .logo {

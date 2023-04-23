@@ -18,7 +18,7 @@
 
 <body>
     <div class="app">
-        <table>
+        <table id="geph-main">
             <tr>
                 <td colspan="2">
                     <img src="files/Geph/Geph-pic.png" alt="">
@@ -26,9 +26,16 @@
             </tr>
             <tr>
                 <td class="download"><span class="icon-download"></span></td>
-                <td class="detail"><span class="icon-info-circled"></span></td>
+                <td class="detail"><span class="icon-info-circled" onclick="gephFun()"></span></td>
             </tr>
         </table>
+        <div dir="rtl" id="geph-det" class="detailapp">
+
+            <p>فیلتر شکن Geph</p>
+            <p>مناسب برای اندروید و آیفون</p>
+            <p>وضعیت امنیتی: <span class="icon-ok-squared"></span></p>
+            <span onclick="gephFun2()" class="icon-cancel"></span>
+        </div>
     </div>
 
 </body>

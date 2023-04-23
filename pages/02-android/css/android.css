@@ -32,3 +32,14 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+.app .detailapp {
+    display: none;
+    font-size: large;
+    color: rgb(125, 77, 48);
+    padding: 4px;
+}
+
+.app .detailapp .icon-cancel {
+    font-size: 45px;
+}

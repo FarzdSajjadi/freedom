@@ -27,6 +27,11 @@
     border-bottom-left-radius: 10px;
 }
 
+.app .download a {
+    text-decoration: none;
+    color: black;
+}
+
 .app .detail {
     background-color: rgb(146, 125, 131);
     border-top-right-radius: 10px;

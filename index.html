@@ -22,14 +22,12 @@
     <header>
         <table class="table">
             <tr>
-                <td colspan="6" class="logo"><img src="files/logo/Freedom-logo.png"></td>
+                <td colspan="4" class="logo"><img src="files/logo/Freedom-logo.png"></td>
             </tr>
             <tr>
-                <td class="icon" id="gmail"><a href="pages/01-gmail/gmail.html" target="page"><span class="icon-gmail"></span></a></td>
                 <td class="icon" id="android"><a href="pages/02-android/android.html" target="page"><span class="icon-android"></span></a></td>
                 <td class="icon" id="ios"><a href="pages/03-ios/ios.html" target="page"><span class="icon-appstore"></span></a></td>
                 <td class="icon" id="windows"><a href="pages/04-windows/windows.html" target="page"><span class="icon-windows"></span></a></td>
-                <td class="icon" id="news"><a href="pages/05-news/news.html" target="page"><span class="icon-article-alt"></span></a></td>
                 <td class="icon" id="home"><a href="pages/06-home/home.html" target="page"><span class="icon-home"></span></a></td>
             </tr>
         </table>
@@ -41,15 +39,6 @@
     <main>
         <div><iframe id="iframe" frameborder="0" name="page"></iframe></div>
     </main>
-    <script>
-        $(document).ready(function() {
-            $("#gmail").click(function() {
-                var h = $(window).height();
-                var x = h - 100;
-                var j = x + "px";
-                document.getElementById('iframe').style.height = j;
-            });
-        });
     </script>
     <script>
         $(document).ready(function() {
@@ -74,16 +63,6 @@
     <script>
         $(document).ready(function() {
             $("#windows").click(function() {
-                var h = $(window).height();
-                var x = h - 100;
-                var j = x + "px";
-                document.getElementById('iframe').style.height = j;
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("#news").click(function() {
                 var h = $(window).height();
                 var x = h - 100;
                 var j = x + "px";

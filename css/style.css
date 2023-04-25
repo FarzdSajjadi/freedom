@@ -33,3 +33,9 @@ iframe {
     width: 100%;
     display: none;
 }
+
+#start {
+    text-decoration: none;
+    font-size: 185px;
+    color: rgb(225, 165, 0);
+}

@@ -6,10 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        span {
+            display: none;
+        }
+    </style>
 </head>
 
-<body>
-    home
+<body dir="rtl">
+    <h1>برای دریافت اخبار جدید و همچنین اطلاع از بروزرسانی ها، مارا در تلگرام دنبال کنید : <a href="https://t.me/wlfreedom" target="_blank">icon telegram</a></h1>
+    <h1 id="devise">برای دستگاه شما پیشنهاد میشود بر روی آیکون <span id="android">android</span> <span id="ios">ios</span> <span id="windows">windows</span> کلیک کنید!
+    </h1>
+    <script>
+        let android, windows, ios, devise;
+        devise = navigator.appVersion
+        windows = devise.includes('Windows')
+        android = devise.includes('Android')
+        ios = devise.includes('iPhone')
+        ios = devise.includes('iPad')
+        if (android == true) {
+            document.getElementById("android").style.display = "block"
+        }
+        if (ios == true) {
+            document.getElementById("ios").style.display = "block"
+        }
+        if (windows == true) {
+            document.getElementById("windows").style.display = "block"
+        }
+        if (condition) {
+
+        } else {
+            document.getElementById('devise').innerHTML = 'متاسفانه برای دستگاه شما فیلتر شکنی نداریم!'
+        }
+    </script>
 </body>
 
 </html>

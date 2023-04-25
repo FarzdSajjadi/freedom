@@ -18,15 +18,27 @@
 
 <body>
     <h1 dir="rtl" class="windows-h1">نام سیستم عامل: ویندوز</h1>
+    <h1 dir="rtl" class="windows-h1" id="type"></h1>
     <div class="app">
         <table id="geph-main">
             <tr>
                 <td colspan="2">
                     <img src="files/Geph/Geph-pic.png" alt="">
+                    <div class="windownapp">
+                        <table>
+                            <tr>
+                                <td><a href="">نسخه 64 بیتی</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="">نسخه 32 بیتی</a></td>
+                            </tr>
+                        </table>
+                    </div>
                 </td>
+
             </tr>
             <tr>
-                <td class="download"><a href="files/Geph/fontello-d6fd45c2.zip"><span class="icon-download"></span></a></td>
+                <td class="download"><span class="icon-download"></span></td>
                 <td class="detail"><span class="icon-info-circled" onclick="gephFun()"></span></td>
             </tr>
         </table>
@@ -36,6 +48,18 @@
                 <span onclick="gephFun2()" class="icon-cancel"></span></p>
         </div>
     </div>
+    <script>
+        let devise, x64, x86;
+        devise = navigator.appVersion;
+        x64 = devise.includes('x64');
+        x86 = devise.includes('x86');
+        if (x64 == true) {
+            document.getElementById('type').innerHTML = 'برای دستگاه شما نسخه 64 بیتی مناسب است!'
+        }
+        if (x86 == true) {
+            document.getElementById('type').innerHTML = 'برای دستگاه شما نسخه 32 بیتی مناسب است!'
+        }
+    </script>
 </body>
 
 </html>

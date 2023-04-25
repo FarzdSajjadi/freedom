@@ -6,16 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/fontello-codes.css">
+    <link rel="stylesheet" href="css/fontello-embedded.css">
+    <link rel="stylesheet" href="css/fontello-ie7-codes.css">
+    <link rel="stylesheet" href="css/fontello-ie7.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <style>
+        h1 {
+            color: rgb(225, 162, 0);
+        }
+        
         span {
             display: none;
+            font-size: 85px;
+        }
+        
+        a {
+            color: rgb(225, 162, 0);
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body dir="rtl">
-    <h1>برای دریافت اخبار جدید و همچنین اطلاع از بروزرسانی ها، مارا در تلگرام دنبال کنید : <a href="https://t.me/wlfreedom" target="_blank">icon telegram</a></h1>
-    <h1 id="devise">برای دستگاه شما پیشنهاد میشود بر روی آیکون <span id="android">android</span> <span id="ios">ios</span> <span id="windows">windows</span> کلیک کنید!
+    <h1>برای دریافت اخبار جدید و همچنین اطلاع از بروزرسانی ها، مارا در تلگرام دنبال کنید : <a href="https://t.me/wlfreedom" target="_blank"><span class="icon-telegram"></span></a></h1>
+    <h1 id="devise">برای دستگاه شما پیشنهاد میشود بر روی آیکون <a href="../02-android/android.html"><span id="android" class="icon-android"></span></a><a href="../03-ios/ios.html"><span id="ios" class="icon-appstore"></span></a>
+        <a href="../04-windows/windows.html"><span id="windows" class="icon-windows"></span></a> کلیک کنید!
     </h1>
     <script>
         let android, windows, ios, devise;
@@ -23,20 +40,18 @@
         windows = devise.includes('Windows')
         android = devise.includes('Android')
         ios = devise.includes('iPhone')
-        ios = devise.includes('iPad')
+        ios2 = devise.includes('iPad')
         if (android == true) {
             document.getElementById("android").style.display = "block"
         }
         if (ios == true) {
             document.getElementById("ios").style.display = "block"
         }
+        if (ios2 == true) {
+            document.getElementById("ios").style.display = "block"
+        }
         if (windows == true) {
             document.getElementById("windows").style.display = "block"
-        }
-        if (condition) {
-
-        } else {
-            document.getElementById('devise').innerHTML = 'متاسفانه برای دستگاه شما فیلتر شکنی نداریم!'
         }
     </script>
 </body>

@@ -1,0 +1,5 @@
+
+.icon-telegram:before { content: '\e800'; } /* '' */
+.icon-appstore:before { content: '\e801'; } /* '' */
+.icon-windows:before { content: '\e802'; } /* '' */
+.icon-android:before { content: '\e808'; } /* '' */

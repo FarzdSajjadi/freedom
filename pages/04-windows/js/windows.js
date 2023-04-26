@@ -1,4 +1,3 @@
-//geph vpn for win
 function gephFun() {
     document.getElementById('geph-main').style.display = "none"
     document.getElementById('geph-det').style.display = "block"
